@@ -3,7 +3,8 @@ var calculateDarkness = function(char) {
     canvas.width = 100;
     canvas.height = 100;
     var ctx = canvas.getContext('2d');
-    ctx.font = '30px Courier';
+    // ctx.font = '30px Courier';
+    ctx.font = '30px Monaco';
     ctx.fillText(char, 10, 50);
 
     var imageData = ctx.getImageData(0, 0, 100, 100);
